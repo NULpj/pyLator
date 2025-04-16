@@ -1,4 +1,4 @@
-# 🌐 pyLator - Simple CLI Translator
+# 🌐 pyLator - Python Translator
 
 **pyLator** is a lightweight command-line translation tool using the power of Google Translate (via `deep-translator`).  
 It allows users to list supported languages, translate between them, and get usage help — all from the terminal.
@@ -19,7 +19,7 @@ It allows users to list supported languages, translate between them, and get usa
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/yourusername/pyLator.git
+git clone https://github.com/NULpj/pyLator.git
 cd pyLator
 ```
 
@@ -35,7 +35,7 @@ pip install -r requirements.txt
 Simply run:
 
 ```bash
-python pyLator.py
+python main.py
 ```
 
 You'll be prompted with a simple menu:
@@ -59,19 +59,19 @@ pyLator supports over 100 languages. Use option **1** in the menu to view all su
 
 ## 📖 Example
 
-Translate "Halo dunia" from Indonesian to English:
+Translate "Hello World" from English to France:
 
 ```
-Enter the text to translate: Halo dunia
-Source language (e.g., 'id' or 'auto'): id
-Target language (e.g., 'en'): en
+Enter the text to translate: Hello World
+Source language (e.g., 'id' or 'auto'): en
+Target language (e.g., 'en'): fr
 ```
 
 ---
 
 ## 🙌 Credits
 
-- Developed by: [Your Name Here]
+- Developed by: NULpj
 - Powered by: [`deep-translator`](https://pypi.org/project/deep-translator/)
 - Translation engine: Google Translate API (via wrapper)
 
@@ -79,4 +79,4 @@ Target language (e.g., 'en'): en
 
 ## 📄 License
 
-This project is licensed under the MIT License.
+This project is licensed under the GNU License.
