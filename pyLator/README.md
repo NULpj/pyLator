@@ -8,9 +8,9 @@ It allows users to list supported languages, translate between them, and get usa
 ## 🚀 Features
 
 - 🌍 View all available language codes
-- 🔁 Translate text between any two languages
-- 🆘 Help section with usage instructions
-- 🎓 Credits page to acknowledge contributors
+- ✍️ Translate typed or spoken text.
+- 🛠️ Uses Google Translate through `deep-translator`.
+- 🎤 Voice input using `speech_recognition`.
 - 💡 Auto language detection supported!
 
 ---
@@ -69,11 +69,11 @@ Target language (e.g., 'en'): fr
 
 ---
 
-## 🙌 Credits
+## Credits
 
-- Developed by: NULpj
-- Powered by: [`deep-translator`](https://pypi.org/project/deep-translator/)
-- Translation engine: Google Translate API (via wrapper)
+- Created by: NULpj
+- Translator: deep-translator (Google Translate wrapper)
+- Voice Recognition: speech_recognition (Google Web Speech API)
 
 ---
 
