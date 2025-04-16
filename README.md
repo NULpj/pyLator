@@ -63,7 +63,7 @@ Translate "Hello World" from English to France:
 
 ```
 Enter the text to translate: Hello World
-Source language (e.g., 'en' or 'auto'): en
+Source language (e.g., 'en'): en
 Target language (e.g., 'fr'): fr
 
 ✅ Translation Result (en → fr):
