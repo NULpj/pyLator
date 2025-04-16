@@ -53,7 +53,7 @@ You'll be prompted with a simple menu:
 
 ## 🌐 Language Codes
 
-pyLator supports over 100 languages. Use option **1** in the menu to view all supported language codes (e.g., `en`, `id`, `fr`, `ja`, `ar`, etc.)
+pyLator supports over 100 languages. Use option **1** in the menu to view all supported language codes (e.g., `en`, `fr`, `ja`, `ar`, `ko`, etc.)
 
 ---
 
@@ -63,8 +63,11 @@ Translate "Hello World" from English to France:
 
 ```
 Enter the text to translate: Hello World
-Source language (e.g., 'id' or 'auto'): en
-Target language (e.g., 'en'): fr
+Source language (e.g., 'en' or 'auto'): en
+Target language (e.g., 'fr'): fr
+
+✅ Translation Result (en → fr):
+=> Bonjour le monde
 ```
 
 ---
